@@ -2,29 +2,41 @@
 <html>
 
 <head>
+    <link rel='stylesheet' href='CSS/style.css' />
+    <style>
+        .active{
+            width: 100px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+        }
+    </style>
     
 </head>
 
 <body>
-   
-        <h1 style="font-weight: bold;">Certificate Dapp</h1>
-        
+    <div class="header">
+        <h1 style="text-align: center; font-weight: bold;color: blueviolet;">Certificate Dapp</h1>
+        <div class="move-right">
             <a class="active" href="index.html">Home</a>
-            <a href="issueCertificate.html">Issue Certificate</a>
-       
-   
+            <a href="issue.html">Issue Certificate</a>
+        </div>
+        </div>
         <br /><br />
-        <img src="Logo.png" width="200" height="200">
+        <div style="text-align: center;padding-top: 50px;">
+        <img src="Logo.png" width="200" height="200"></div>
         <br /><br /><br />
         <!-- <button onclick="connectToMetamask()" class="buttonZero" style="text-align: center;">
             <span>Login</span>
         </button> -->
-    
+       <div class="itemCenter">
         <input type="text" id="certificateID" name="certificateID" class="text-box-with-border"
             placeholder="Enter Certificate ID to View">
-        <button onclick="redirectToPage()" class="searchButton">
+        <button class="searchButton" onclick="redirectToPage()" class="searchButton">
             Search
-        </button>
+        </button></div>
         <script>
             function redirectToPage() {
             window.location.href = "viewCertificate1.html";

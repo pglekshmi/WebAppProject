@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='CSS/search.css' />
+    <link rel='stylesheet' href='CSS/style.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <div class="header">
+        <h1 style="text-align: center; font-weight: bold;color: blueviolet;">Certificate Dapp</h1>
+        <div class="move-right">
+            <a class="active" href="index.html">Home</a>
+            <a href="issue.html">Issue Certificate</a>
+        </div>
+        </div>
+      <br />
+      <div class="entry-form">
+        <h3>Issue New Certificate</h3>
+        <div class="form-group">
+          <label style="display: block" for="courseName">Select Course *</label>
+          <select class="form-ctrl" name="courseName" id="courseName">
+            <option>Certified Blockchain Associate</option>
+            <option>Certified Ethereum Developer</option>
+            <option>Blockchain Foundation</option>
+            <option>Ethereum Fundamentals</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <label style="display: block" for="certificateID">Certificate ID *</label>
+          <input type="text" class="form-ctrl" name="certificateID" id="certificateID" placeholder="Certificate ID"
+            required>
+        </div>
+        <div class="form-group">
+          <label style="display: block" for="candidateName">Candidate name *</label>
+          <input type="text" class="form-ctrl" name="candidateName" id="candidateName" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <label style="display: block" for="grade">Select Grade *</label>
+          <select class="form-ctrl" id="grade" name="grade" id="grade">
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label style="display: block" for="date">Issue Date *</label>
+          <input type="date" class="form-ctrl" id="date" name="date" required>
+        </div>
+        <button onclick="issueCertificate()" class="btn btn-info">Issue Certificate</button>
+      </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.text-box-with-border {
+    border: 3px solid #007bff; /* Example border color */
+    padding-bottom: 5px; /* Optional: Add padding for better appearance */
+    margin-bottom: 10px;
+  }
+  .header{
+   
+    font-size:30px;
+    
+  }
+  .move-right{
+    position: absolute;
+    top: 1;
+    right: 0;
+  }
+  .searchButton{
+    width: 100px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  }
+  .itemCenter{
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }

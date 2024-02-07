@@ -1,0 +1,15 @@
+.entry-form {
+    padding: 50px;
+    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9f9;
+}
+.form-group {
+    padding-bottom: 25px;
+    
+  }
+  .form-ctrl{
+    width: 500 px;
+    height: 500 px;
+  }
